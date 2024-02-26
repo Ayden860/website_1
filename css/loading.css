@@ -10,4 +10,13 @@ body{
 .loading-text{
     font-size: 50px;
     font-family: "Pixelify Sans", sans-serif;
+    z-index:1;
+}
+
+.bg{
+    z-index:0;
+    height:100vh;
+    width:100vw;
+    background-color:green;
+    position:absolute;
 }
