@@ -10,6 +10,7 @@ function blurring(){
         clearInterval(int);
     }
     loadText.innerText = `${load}%`;
-    loadText.style.opacity = 30;
+
+    loadText.style.opacity = 1;
     bg.style.filter = "blur(10px)";
 }
