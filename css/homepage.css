@@ -17,7 +17,7 @@ a{
 
 a:hover{
     background-color:black;
-    color:white;
+    color:Pink;
 }
 
 a:visited{
@@ -25,7 +25,7 @@ a:visited{
 }
 
 a:visited:hover{
-    color:#f8f8f8;
+    color:blue;
 }
 
 footer{
