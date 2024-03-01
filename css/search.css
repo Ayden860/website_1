@@ -20,18 +20,33 @@ body{
 .btn{
     position: absolute;
     top: 0;
-    right:-1000;
+    left: 0;
     font-size: 24px;
     background-color:white;
     border:none;
     height:50px;
     width:50px;
+    cursor: pointer;
+    transition: transform 1s ease;
 }
 .input{
     background-color: white;
     border:none;
     font-size: 18px;
     height:50px;
-    width:200px;
+    width:50px;
     padding:15px;
+    transition:width 1s ease;
+}
+
+.search .input:focus {
+    outline:none;
+}
+
+.search.active .input{
+    width: 200px;
+}
+
+.search.active .btn{
+    transform: translateX(198px);
 }

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+    background-color: rgb(161, 100, 223);
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+/* rem is multipler of default size of browser */
+.btn{
+    background-color: rebeccapurple;
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
