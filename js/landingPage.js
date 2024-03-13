@@ -1,4 +1,3 @@
-console.log('hello')
 toggle = document.getElementById('toggle')
 open = document.getElementById('open')
 // model may be modal for id
@@ -8,6 +7,7 @@ close = document.getElementById('close')
 
 // toggle Nav
 toggle.addEventListener('click', () =>{
+    console.log('hello');
     document.body.classList.toggle('show-nav')
 })
 // Show modal
