@@ -1,17 +1,19 @@
-loadText = document.querySelector(".loading-text");
+loadText = document.querySelector(".loading-text-2");
 bg = document.querySelector(".bg");
+bg2 = document.querySelector(".bg-2");
 load = 0;
 
 int = setInterval(blurring, 30);
 
-function blurring(){
+function blurring() {
     load++;
-    if (load > 99){
+    if (load > 99) {
         clearInterval(int);
     }
     loadText.innerText = `${load}%`;
 
-    loadText.style.opacity = 1  - load/100;
+    loadText.style.opacity = 1 - load / 100;
 
-    bg.style.filter = `blur(${30-load/100*30}px)`;
+    bg.style.filter = `blur(${30 - load / 100 * 30}px)`;
+    bg2.style.filter = `blur(${30 - load / 100 * 30}px)`;
 }
